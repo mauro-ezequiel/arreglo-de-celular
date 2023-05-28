@@ -1,18 +1,26 @@
-import ImageComponent from './components/img';
 import React from 'react';
 import './App.css';
-import Navbar from './components/navbar.js';
+import Bar from './components/bar';
+import Carousel from './components/carousel';
+
+
+
 
 
 function App() {
   return (
     <div className="App">
       <div className='header'>
-        <ImageComponent/>
-       <Navbar/>
-     
-       </div>
+        <Bar/>
+        <Carousel/>
+  
+      </div>
+      <div class='container'>
+        <h1>reparacion </h1>
+        <i class="bi bi-android2"></i>
+      </div>
     </div>
+    
   );
 }
 

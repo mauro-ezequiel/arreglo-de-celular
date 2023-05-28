@@ -1,0 +1,28 @@
+.navbar {
+padding: 2rem;
+background-color: rgb(19, 19, 206);
+width: 100%;
+
+}
+    
+.img {
+    height:50px;
+    width: auto;
+}
+ 
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*adaptador responsi*/
+
+@media screen and (max-width: 760px) {
+    .navbar-brand {
+        display: none;
+    }
+    
+}
+
+
