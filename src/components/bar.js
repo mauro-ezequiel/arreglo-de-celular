@@ -33,6 +33,9 @@ const Bar = () => {
         <li class="nav-item">
           <a class="nav-link" href="#">information</a>
         </li>
+        <li class="nav-item">
+          <i class="bi2 bi-cart4  "></i>
+        </li>
       </ul>
       
     </div>
