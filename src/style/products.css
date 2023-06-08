@@ -1,0 +1,49 @@
+
+.card {
+    border: 2px solid rgb(58, 81, 182);
+    border-radius: 20px;
+    margin: 20px;
+    background-color: rgb(32, 35, 116);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 5px;
+    box-shadow: -1px 4px 1px 1px white;
+    cursor: pointer;
+}
+    
+
+.image {
+    max-height: 100%;
+    max-width: 120px ;
+
+}
+
+.title {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    color: #000;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.paragraph {
+    font-size: 15px;
+    color: black;
+    overflow-wrap: initial;
+}
+
+
+@media screen and (max-width: 600px) {
+    .paragraph {
+        font-size: 10px ;
+    }
+}

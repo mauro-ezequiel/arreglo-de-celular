@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Bar from './components/bar';
 import Carousel from './components/carousel';
-import Products from './components/products';
+import Sale from './components/sale';
 
 
 
@@ -14,7 +14,6 @@ function App() {
        <div className='header'>
          <Bar/>
          <Carousel/>
-  
        </div>
        <div className='Container'>
         <h1 className='Title'>
@@ -23,9 +22,13 @@ function App() {
         <i class="bi bi-android2"></i> <i class="bi1 bi-apple"></i>
        </div>
 
-       <Products/>
+        <h2 className='offers'>
+         in offer
+        </h2>
+       
+       <Sale/>
 
-        
+    
            <div className='container-xxl'>
             <div className='row'>
              <div className="col ">

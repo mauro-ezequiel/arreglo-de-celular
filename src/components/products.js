@@ -1,69 +1,18 @@
 import React from "react";
-import '../img/img1.png';
+import '../style/products.css';
 
 
-const Products = () => {
- return(
-     
-  <div className="container">
-   <div className="row">
-    <div className="col-md-3">
-     <img className="img"
-     src={img1}
-     alt="123"/>
-     <h1 className="title">j7 prime</h1>
-     <h2 className="price">12000</h2>
-     <p1 className= 'info'>
-        32gb interna
-        4gb RAM
-        8mpx
-        </p1>
-
-    </div>
-    <div className="col-md-3">
-     <img className="img"
-     src={img1}
-     alt="123"/>
-     <h1 className="title">j7 prime</h1>
-     <h2 className="price">12000</h2>
-     <p1 className= 'info'>
-        32gb interna
-        4gb RAM
-        8mpx
-        </p1>
-
-    </div>
-
-    <div className="col-md-3">
-     <img className="img"
-     src={img1}
-     alt="123"/>
-     <h1 className="title">j7 prime</h1>
-     <h2 className="price">12000</h2>
-     <p1 className= 'info'>
-        32gb interna
-        4gb RAM
-        8mpx
-        </p1>
-
-    </div>
-    <div className="col-md-3">
-     <img className="img"
-     src={img1}
-     alt="123"/>
-     <h1 className="title">j7 prime</h1>
-     <h2 className="price">12000</h2>
-     <p1 className= 'info'>
-        32gb interna
-        4gb RAM
-        8mpx
-        </p1>
-
-    </div>
-
-   </div>
-   </div>
- )
- }
-
- export default Products;
+function Card (props) {
+    return (
+        <div className="card">
+        <img className="image"
+        src={props.image} 
+        alt={props.title} />
+        <h2 className="title">{props.title}</h2>
+        <h3 className="price">{props.price}</h3>
+        <p className="paragraph">{props.paragraph}</p>
+      </div>
+    );
+  }
+  
+  export default Card;

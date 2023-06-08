@@ -54,12 +54,15 @@ font-family: 'Tilt Prism', cursive;
   color: white;
   padding-top: 10px;
   margin: 20px;
-  font-size: 50px;
+  font-size: 3rem;
 }
 
 @media screen and (max-width: 600px) {
   .Title {
       font-size: 35px;
+  }
+  .offers {
+    font-size: 30px;
   }
   
 }
@@ -75,10 +78,25 @@ font-family: 'Tilt Prism', cursive;
 
 }
 
+/* productos*/
+
+.offers {
+  font-family: 'Rubik Vinyl', cursive;
+  color: rgb(129, 21, 21);
+  margin: 100px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  font-size: 2.5rem;
+
+}
+
+
 /*parte inferior*/
 
 .container-xxl  {
-  background-color: rgb(94, 54, 8);
+  background-color: rgb(37, 49, 115);
  
   padding: 20px;
   box-sizing: border-box;

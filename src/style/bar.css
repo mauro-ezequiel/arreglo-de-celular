@@ -1,10 +1,11 @@
 .navbar {
 padding: 2rem;
-background-color: rgb(19, 19, 206);
 width: 100%;
 box-shadow: 0 4px 6px rgba(0, 0, 255, 0.1), 0 1px 3px rgba(75, 75, 175, 0.1);
 margin: 10px;
-
+position: relative;
+top: 12px;
+background-color: rgb(14, 31, 31);
 }
     
 .img {
@@ -15,6 +16,7 @@ margin: 10px;
 .navbar-collapse {
     align-items: center;
     justify-content: space-between;
+  
 }
 
 
@@ -22,7 +24,7 @@ margin: 10px;
 .nav-link {
 font-size: 20px;
 border-radius: 15px;
-color:azure;
+color:rgb(255, 255, 255);
 
 
 }
