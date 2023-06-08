@@ -3,7 +3,7 @@ import './App.css';
 import Bar from './components/bar';
 import Carousel from './components/carousel';
 import Sale from './components/sale';
-
+import Accessories from './components/accessories';
 
 
 
@@ -28,7 +28,13 @@ function App() {
        
        <Sale/>
 
-    
+       <h2 className='offers'>
+       accessories
+        </h2>
+
+        <Accessories/>
+
+
            <div className='container-xxl'>
             <div className='row'>
              <div className="col ">

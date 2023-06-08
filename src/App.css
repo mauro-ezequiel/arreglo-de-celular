@@ -55,6 +55,7 @@ font-family: 'Tilt Prism', cursive;
   padding-top: 10px;
   margin: 20px;
   font-size: 3rem;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 600px) {
@@ -63,6 +64,7 @@ font-family: 'Tilt Prism', cursive;
   }
   .offers {
     font-size: 30px;
+    text-transform: capitalize;
   }
   
 }
