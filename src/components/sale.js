@@ -19,7 +19,7 @@ const Sale = () => {
  return(
 
     <>
-    <div className='row '>
+    <div className='row'>
 
     <div className='col-md-3'>
    <Card

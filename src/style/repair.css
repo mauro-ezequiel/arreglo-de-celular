@@ -1,0 +1,74 @@
+.logo {
+    height: 12rem;
+    margin-left: 130px;
+}
+
+@media screen and (max-width: 700px) {
+    .logo {
+        height: 7rem;
+        margin-left: 0px;
+    }
+    .bi9 {
+        font-size: 1rem;
+       
+
+    }
+    .t1 {
+        font-size: 1.5rem;
+    }
+    .title1{
+        font-size: 0.6rem;
+    }
+    .detail {
+        font-size: 0.4;
+        margin: 100px;
+        width: 300px;
+    }
+  }
+
+ .bi9{
+    color: chartreuse;
+    font-size: 2rem;
+ }
+
+.container-xl {
+    background-color: rgb(85, 13, 13);
+    min-height: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.t1 {
+    font-size: 3rem;
+    font-family: 'Tilt Prism', cursive;
+    color: white;
+    
+}
+
+.title1{
+    color: white;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.detail {
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    flex-wrap: wrap;
+    max-width: 400px;
+    text-align: justifY;
+    margin-left: 150px;
+}
+
+
+.list-group  {
+    background-color: rgb(39, 37, 37);
+}

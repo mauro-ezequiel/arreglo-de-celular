@@ -1,7 +1,7 @@
 import React from "react";
 import background from '../img/background.jpg';
 import img2 from '../img/img2.jpg';
-import img3 from '../img/img3.jpg';
+import air1 from '../img/air1.jpg';
 import '../style/carousel.css';
 
 
@@ -21,7 +21,7 @@ const Carousel = () => {
     </div>
     <div loading="lazy"
     class="carousel-item">
-      <img src={img3}
+      <img src={air1}
       class="d-block w-100"/>
     </div>
   </div>

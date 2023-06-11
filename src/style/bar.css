@@ -1,11 +1,12 @@
 .navbar {
-padding: 2rem;
+
 width: 100%;
 box-shadow: 0 4px 6px rgba(0, 0, 255, 0.1), 0 1px 3px rgba(75, 75, 175, 0.1);
 margin: 10px;
 position: relative;
 top: 12px;
-background-color: rgb(14, 31, 31);
+
+;
 }
     
 .img {
@@ -16,7 +17,6 @@ background-color: rgb(14, 31, 31);
 .navbar-collapse {
     align-items: center;
     justify-content: space-between;
-  
 }
 
 
@@ -51,6 +51,13 @@ color:rgb(255, 255, 255);
   color: rgb(16, 24, 99);
 }
 .bi2:hover{
-    color: beige;
+    color:beige;
     background-color: rgb(23, 23, 103);
 }
+
+
+.container-fluid {
+    background-color: rgb(206, 206, 206);
+    
+}
+

@@ -4,6 +4,7 @@ import Bar from './components/bar';
 import Carousel from './components/carousel';
 import Sale from './components/sale';
 import Accessories from './components/accessories';
+import Repair from './components/repair';
 
 
 
@@ -11,7 +12,7 @@ import Accessories from './components/accessories';
 function App() {
   return (
    <div className="App">
-       <div className='header'>
+       <div className='header'  id='beginning'>
          <Bar/>
          <Carousel/>
        </div>
@@ -22,20 +23,22 @@ function App() {
         <i class="bi bi-android2"></i> <i class="bi1 bi-apple"></i>
        </div>
 
-        <h2 className='offers'>
+        <h2 className='offers' id='offer'>
          in offer
         </h2>
        
        <Sale/>
 
-       <h2 className='offers'>
+       <h2 className='offers' id="accessories">
        accessories
         </h2>
 
         <Accessories/>
 
+        <Repair />
 
-           <div className='container-xxl'>
+
+           <div className='container-xxl'  >
             <div className='row'>
              <div className="col ">
              <h2 className='text'>
@@ -46,12 +49,13 @@ function App() {
              <a href='https://www.facebook.com/profile.php?id=100088989336658' target='-blank'>
               <i class="bi5 bi-facebook"/> 
              </a>
-             
              <i class="bi5 bi-whatsapp"/>
              <a href='https://www.instagram.com/'target='-blank'>
              <i class="bi5 bi-instagram"/>
             </a>
+            <i class="bi5 bi-envelope-at-fill"></i>
              </div>
+               
              </div>
           </div>
           </div>

@@ -2,6 +2,7 @@ import React from "react";
 import '../style/bar.css';
 import '../img/img1.png';
 
+
 import img1 from '../img/img1.png';
 
 
@@ -25,13 +26,13 @@ const Bar = () => {
       </a>
       <ul class="navbar-nav d-flex justify-content-center align-items-center">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">beginning</a>
+          <a class="nav-link active" aria-current="page" href="#offer"> offer</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">contact</a>
+          <a class="nav-link" href="#accessories">accessories</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">information</a>
+          <a class="nav-link" href="#Repair">Repair</a>
         </li>
         <li class="nav-item">
           <i class="bi2 bi-cart4  "></i>

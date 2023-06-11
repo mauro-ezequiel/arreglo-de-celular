@@ -5,7 +5,8 @@
 html,
 body{
   font-size: 18px;
-  background-color: rgb(250, 250, 27);
+  background-color:rgb(17, 20, 57) ;
+  
 }
 h1{
   max-width: 940px;
@@ -15,14 +16,15 @@ h1{
   margin: 40px 0;
 }
 .App {
-  min-height: 100vh;
+  
   display: flex;
-  flex-wrap: wrap;
+  
   align-items: center;
   justify-content: center;
   text-align: center; 
   flex-direction: column;
-  background-color: rgb(28, 30, 40);
+  background-color: rgb(17, 20, 57);
+  min-width:550px ;
 }
 
 
@@ -49,10 +51,10 @@ h1{
 .Title {
   
   font-family: 'Slackside One', cursive;
-font-family: 'Tilt Prism', cursive;
+  font-family: 'Tilt Prism', cursive;
   align-items: center;
   color: white;
-  padding-top: 10px;
+  
   margin: 20px;
   font-size: 3rem;
   flex-wrap: wrap;
@@ -84,13 +86,14 @@ font-family: 'Tilt Prism', cursive;
 
 .offers {
   font-family: 'Rubik Vinyl', cursive;
-  color: rgb(129, 21, 21);
+  color: rgb(170, 31, 31);
   margin: 100px;
   align-items: center;
   justify-content: center;
-  padding-top: 20px;
+ 
   flex-wrap: wrap;
   font-size: 2.5rem;
+  
 
 }
 
@@ -100,7 +103,7 @@ font-family: 'Tilt Prism', cursive;
 .container-xxl  {
   background-color: rgb(37, 49, 115);
  
-  padding: 20px;
+  
   box-sizing: border-box;
   width: 100%;
   max-height: 150px;
@@ -108,9 +111,9 @@ font-family: 'Tilt Prism', cursive;
 
 }
 .text {
-font-size: 30px;
+font-size: 25px;
 font-family: sans-serif;
-
+color: rgb(14, 14, 14);
 }
 
 @media screen and (max-width: 700px) {
@@ -125,6 +128,7 @@ font-family: sans-serif;
 .bi5 {
   font-size: 1.5rem;
   color: rgb(82, 107, 196);
+  margin: 11px;
 
 
 }

@@ -9,7 +9,7 @@ const Accessories = () => {
     return( 
 
         <>
-        <div className="row">
+        <div className="row" >
             <div className="col-md-6">
             <div className="container" >
        
@@ -34,6 +34,7 @@ const Accessories = () => {
             
             <div className="col-md-3">
         <Card
+
            image={fundas9}
            title= " cover samsung s9"
            price= '5.000'

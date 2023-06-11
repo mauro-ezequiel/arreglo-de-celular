@@ -1,19 +1,13 @@
 
 .card {
-  
-    border: 2px solid rgb(58, 81, 182);
     border-radius: 20px;
-    margin: 20px;
-    background-color: rgb(32, 35, 116);
-    display: flex;
+    margin: 10px;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 5px;
-    box-shadow: -1px 4px 1px 1px white;
+    object-fit: cover;
     cursor: pointer;
     flex-wrap: wrap;
     width: 100%;
+    
     
 }
     
@@ -21,6 +15,9 @@
 .image {
     max-height: 100%;
     max-width: 120px ;
+    overflow: hidden;
+    object-fit: cover;
+    margin:5px 0px 0px 0px;
 
 }
 
@@ -36,21 +33,22 @@
 .price {
     color: red;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .paragraph {
-    font-size: 15px;
+    font-size: 20px;
     color: black;
     overflow-wrap: initial;
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .paragraph {
-        font-size: 10px ;
+        font-size: 15px ;
     }
 
   
 }
+
 
