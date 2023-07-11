@@ -7,10 +7,18 @@
     cursor: pointer;
     flex-wrap: wrap;
     width: 100%;
+    display: flex;
+    justify-content:space-between;
     
     
 }
     
+
+.card:hover {
+   box-shadow: 5px 5px 20px 6px rgb(34, 50, 132);
+   
+
+}
 
 .image {
     max-height: 100%;

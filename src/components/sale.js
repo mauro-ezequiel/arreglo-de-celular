@@ -27,6 +27,7 @@ const Sale = () => {
      title= "iphon 11"
      price= '50.000'
      paragraph= '128gb internal memory 8gb RAM camera 60mpx frontal camera 28mpx'
+     prices='50.000'
     />
     </div>
     
@@ -46,14 +47,16 @@ const Sale = () => {
      paragraph= '128gb  internal memory 8gb RAM camera 60mpx frontal camera 28mpx'
     />
     </div>
+
     <div className='col-md-3'>
    <Card
-     image={ipx}
-     title= "iphone x"
+     image={iph11}
+     title= "iphon 11"
      price= '50.000'
-     paragraph= '128gb  internal memory 8gb RAM camera 60mpx frontal camera 28mpx'
+     paragraph= '128gb internal memory 8gb RAM camera 60mpx frontal camera 28mpx'
     />
     </div>
+   
     </div>
 
 <div className='row'>

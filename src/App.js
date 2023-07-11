@@ -7,8 +7,6 @@ import Accessories from './components/accessories';
 import Repair from './components/repair';
 
 
-
-
 function App() {
   return (
    <div className="App">
@@ -55,8 +53,11 @@ function App() {
             </a>
             <i class="bi5 bi-envelope-at-fill"></i>
              </div>
-               
+
              </div>
+          </div>
+          <div>
+            
           </div>
           </div>
 

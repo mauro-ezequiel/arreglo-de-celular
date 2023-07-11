@@ -18,6 +18,8 @@
     }
     .title1{
         font-size: 0.6rem;
+        width: 250px;
+        margin: 0px 0px 0px 160px ;
     }
     .detail {
         font-size: 0.4;
