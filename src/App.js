@@ -47,18 +47,27 @@ function App() {
              <a href='https://www.facebook.com/profile.php?id=100088989336658' target='-blank'>
               <i class="bi5 bi-facebook"/> 
              </a>
+             <a href='https://web.whatsapp.com/? phone:1150941389'
+             target='-blank'>
              <i class="bi5 bi-whatsapp"/>
+             </a>
              <a href='https://www.instagram.com/'target='-blank'>
              <i class="bi5 bi-instagram"/>
             </a>
             <i class="bi5 bi-envelope-at-fill"></i>
              </div>
+             
 
              </div>
           </div>
-          <div>
-            
-          </div>
+          
+          <>
+             <a href='https://web.whatsapp.com/? phone:1150941389'
+             className='btn-wsp' target='-blank'>
+               <i class="bi20 bi-whatsapp"/>
+             </a>
+             </>
+          
           </div>
 
   );

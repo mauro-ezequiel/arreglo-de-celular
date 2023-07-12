@@ -10,7 +10,6 @@ body{
   
 }
 h1{
-  max-width: 940px;
   font-size: 2.5em;
   font-family: sans-serif;
   font-weight: 1.1;
@@ -50,11 +49,12 @@ h1{
 
 .Title {
   
-  font-family: 'Slackside One', cursive;
+  
   font-family: 'Tilt Prism', cursive;
   align-items: center;
   color: white;
-  
+  text-shadow: 4px 4px 2px blue;
+  border-radius: 10px;
   margin: 20px;
   font-size: 3rem;
   flex-wrap: wrap;
@@ -145,3 +145,27 @@ margin: 10px 0px 0px 0px;
   color: rgb(37, 152, 45);
 }
 
+
+.btn-wsp{
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background-color: #0df053;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgb(0,0,0,0,3);
+  z-index: 100;
+}
+ 
+
+.btn-wsp:hover{
+  text-decoration: none;
+  color:#0df053 ;
+  background-color: #fff;
+
+}
