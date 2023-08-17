@@ -1,50 +1,46 @@
 import React from "react";
 import '../style/bar.css';
-import '../img/img1.png';
-
-
 import img1 from '../img/img1.png';
 
 
 const Bar = () => {
     return(
 
- 
+      <section id='bar'>
+      <nav class="navbar navbar-expand-md">
+      <div class="container-fluid">
+       
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
 
-    <nav class="navbar navbar-expand-md bg-light">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler"
-    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbar-Toggler">
-      <a class="navbar-brand" >
-         <img className="img"
-         src= {img1}
-         alt="logo"
-         />
-      </a>
-      <ul class="navbar-nav d-flex justify-content-center align-items-center">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#offer"> offer</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#accessories">accessories</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#Repair">Repair</a>
-        </li>
-        <li class="nav-item">
-          <i class="bi2 bi-cart4  "></i>
-        </li>
-      </ul>
-      
-    </div>
-  </div>
-</nav>
+        <a class="navbar-brand " href="123">
+          <img className="img"
+          src={img1}
+          alt="arreglo celulares"/>
 
-     
+        </a>
 
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class=" txt nav-link active" aria-current="page"href="/">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="txt nav-link" href="/products">products</a>
+            </li>
+            <li class=" nav-item">
+              <a class="txt nav-link"href="/Repair">Repair </a>
+            </li>
+           
+           
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+  
+    </section>
 )
 }
 

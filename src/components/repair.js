@@ -1,59 +1,59 @@
 import React from "react";
 import img1 from '../img/img1.png';
 import '../style/repair.css';
-
+import Bar from "./bar";
+import Bottom from "./bottom";
 
 const Repair = () => {
 return( 
-   <>
-    <div className="container-xl " id='Repair' >
-        <h1 className="t1">repair</h1>
-    </div>
-    <div className="row">
-     <div className="col-lg-5">
+  <div>
+   <Bar/>
+   <section>
+   <div className="body1">
+   <h1 id="offer"> repair</h1>
+   <div className="row">
+      <div className=" col-md-6">
         <img className="logo"
-        src={img1}/>
-        <div className="row">
-            <div className="col-md-3">
-            
-             <i class="bi9 bi-telephone-forward"></i>
+        src={img1}
+        alt="arreglo de celulares"/>
 
-            </div>
-
-
-            <div className="col-md-9">
-             <h3 className="title1">
-             you can contact our technical support
-              </h3>
-              <a href='https://www.facebook.com/profile.php?id=100088989336658' target='-blank'>
+        <p className="detail">
+        You can communicate with us through the following networks
+        </p>
+            <div className="detail">
+            <a href='https://www.facebook.com/profile.php?id=100088989336658' target='-blank'>
               <i class="bi5 bi-facebook"/> 
              </a>
+             <a href='https://wa.me/541150941389'
+             target='-blank'>
              <i class="bi5 bi-whatsapp"/>
+             </a>
              <a href='https://www.instagram.com/'target='-blank'>
              <i class="bi5 bi-instagram"/>
             </a>
+            <a href='https://mail.google.com/mail/u/0/#search/from%3A%40jooble.org+in%3Aanywhere/FMfcgzGtwCtTwJMFtBCXBlHLrcdTZmpk'target='-blank'>
             <i class="bi5 bi-envelope-at-fill"></i>
-           </div>
-        </div>
-     </div>
-     <div className="col-lg-7">
-        <div className="cont">
-
-        <p className="detail">
+            </a>
+            </div>
+      </div>
+      <div className="col-md-6">
+         
+         <p className="detail">
           if your cell phone has any problem
           example:
-       
-          <ul className="list-group ">
+        </p>
+       <div className="detail">
+          <ul>
           
-          <li class="list-group-item">-se fracturo la pantalla, carcasa, etc.</li>
-          <li class="list-group-item">-La pantalla no funciona, tactil ,altavoz</li>
-          <li class="list-group-item">-got wet or had moisture problems</li>
-          <li class="list-group-item">-etc..</li>
+          <li >-se fracturo la pantalla, carcasa, etc.</li>
+          <li>-La pantalla no funciona, tactil ,altavoz</li>
+          <li>-got wet or had moisture problems</li>
+          <li >-etc..</li>
           </ul>
-       
+         </div>
 
 
-       
+         <p className="detail">
             You can contact our technical support, which will provide you with the best possible attention and will give you a budget according to your problem.
 
             our branch is located
@@ -62,10 +62,15 @@ return(
             in the corner
         </p>
         </div>
-        </div>
-    </div>
-   </>
-
-)}
+       </div>
+      </div>
+   
+    <Bottom/>
+             
+  
+   </section>
+   </div>
+);
+}
 
 export default Repair;

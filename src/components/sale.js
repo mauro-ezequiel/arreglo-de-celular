@@ -1,9 +1,9 @@
-import Reac from "react";
+
 import Card from "./products";
 import iph11 from '../img/iph11.jpg';
 import iph12 from '../img/iph12.jpg';
 import iph13 from '../img/iph13.jpg';
-import ipx from '../img/ipx.jpg';
+
 import j7 from '../img/j7.jpg';
 import j7prime from '../img/j7prime.jpg';
 import note8 from '../img/note8.jpg';
@@ -12,13 +12,19 @@ import note10 from '../img/note10.jpg';
 import s8 from '../img/s8.jpg';
 import s9 from '../img/s9.jpg';
 import s10 from '../img/s10.jpg';
-
-
+import '../style/sale.css';
+import Bar from "./bar";
 
 const Sale = () => {
  return(
 
-    <>
+   <div>
+    <Bar/>
+    
+    <section>
+       <h1 id="offer">
+        in offers
+       </h1>
     <div className='row'>
 
     <div className='col-md-3'>
@@ -134,8 +140,9 @@ const Sale = () => {
 </div>
 
 </div>
-</>
 
+</section>
+</div>
 
 
  );

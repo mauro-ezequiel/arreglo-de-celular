@@ -4,11 +4,16 @@ import csc from '../img/csc.jpg';
 import '../style/accessories.css';
 import air from '../img/air.webp';
 import fundas9 from '../img/fundas9.jpg';
-
+import Bottom from "./bottom";
 const Accessories = () => {
     return( 
 
-        <>
+        <section>
+
+         <h2 id='offer' >
+          accessories
+         </h2>
+
         <div className="row" >
             <div className="col-md-6">
             <div className="container" >
@@ -42,10 +47,11 @@ const Accessories = () => {
         />
 
             </div>
-            
+           
         </div>
-        
-        </>
+       
+        <><Bottom/></>
+        </section>
 
     );
 }

@@ -5,8 +5,10 @@ import air1 from '../img/air1.jpg';
 import '../style/carousel.css';
 
 
+
 const Carousel = () => {
     return(
+      <section>
       <div id="carousel" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner img-fluid"  d-flex justify-content-center  align-items-center flex-wrap-wrap>
     <div class="carousel-item active" data-bs-interval="10000">
@@ -40,7 +42,8 @@ const Carousel = () => {
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>
+  </div>
+</section>
     );
 }
 export default Carousel;

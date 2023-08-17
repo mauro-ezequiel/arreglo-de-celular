@@ -1,134 +1,83 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
+
 html,
-body{
+body {
   font-size: 18px;
-  background-color:rgb(17, 20, 57) ;
-  
-  
+  background-color: none;
+  width:100vw
+
 }
-h1{
-  font-size: 2.5em;
-  font-family: sans-serif;
-  font-weight: 1.1;
-  
-}
+
+
+
 .App {
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center; 
+  text-align: center;
   flex-direction: column;
-  background-color: rgb(17, 20, 57);
-  min-width:550px ;
+  background-color:rgb(21, 21, 52) ;
+  width:100vw;
 }
 
 
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  flex-basis: 20rem;
-  flex-grow: 1;
-  flex: 1;
-  width: 100%;
-  position: relative;
-  top: -25px;
 
-}
 .Container {
   flex-wrap: wrap;
   flex-direction: column;
-  min-width: 300px;
-  min-height: 100px;
+ 
 }
 
 .Title {
-  
-  
-  font-family: 'Tilt Prism', cursive;
+ 
+  font-family: 'Caprasimo', cursive;
+ font-weight: bold;
   align-items: center;
-  color: white;
-  text-shadow: 4px 4px 2px blue;
-  border-radius: 10px;
-  margin: 20px;
-  font-size: 3rem;
+  color: #3d3d40;
+  padding: 10px 10px;
+  font-size: 2.2rem;
   flex-wrap: wrap;
+  text-shadow: 2px 2px 4px blue;
 }
 
-@media screen and (max-width: 600px) {
-  .Title {
-      font-size: 35px;
-  }
-  .offers {
-    font-size: 30px;
-    text-transform: capitalize;
-  }
+.Title__h2{
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+.p1{
+  font-size: 2rem;
+  color: rgb(63, 183, 39);
+  margin: 3px 50px;
+  
+
+}
+.p1__p2{
+  padding: 2px 15px;
+  color: #9c9c9c;
   
 }
+
 
 
 .bi {
   font-size: 3rem;
   color: chartreuse;
+  padding: 10px ;
 }
-.bi1{
+
+.bi1 {
   font-size: 3rem;
   color: rgb(92, 95, 89);
-
-}
-
-/* productos*/
-
-.offers {
-  font-family: 'Rubik Vinyl', cursive;
-  color: rgb(170, 31, 31);
-  margin: 100px;
-  align-items: center;
-  justify-content: center;
- 
-  flex-wrap: wrap;
-  font-size: 2.5rem;
   
 
 }
 
 
-/*parte inferior*/
 
-.container-xxl  {
-  background-color: rgb(37, 49, 115);
- 
-  
-  box-sizing: border-box;
-  min-height: 50px;
-  
-  width: 100%;
-
-}
-.text {
-font-size: 25px;
-color: rgb(14, 14, 14);
-font-family: 'Orbitron';
-align-items: center;
-justify-content: center;
-margin: 10px 0px 0px 0px;
-
-}
-
-
-@media screen and (max-width: 700px) {
-  .text{
-    
-    font-size: 20px;
-  }
- 
-  
-}
 
 
 .bi5 {
@@ -141,12 +90,12 @@ margin: 10px 0px 0px 0px;
 
 
 .bi5:hover {
- 
+
   color: rgb(37, 152, 45);
 }
 
 
-.btn-wsp{
+.btn-wsp {
   position: fixed;
   width: 55px;
   height: 55px;
@@ -158,14 +107,38 @@ margin: 10px 0px 0px 0px;
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
-  box-shadow: 0px 1px 10px rgb(0,0,0,0,3);
+  box-shadow: 0px 1px 10px rgb(0, 0, 0, 0, 3);
   z-index: 100;
 }
- 
 
-.btn-wsp:hover{
+
+.btn-wsp:hover {
   text-decoration: none;
-  color:#0df053 ;
+  color: #0df053;
   background-color: #fff;
 
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(21, 21, 52);
+}
+
+
+/*adaptador responsi*/
+
+@media screen and (max-width: 760px) {
+  .Title{
+    font-size: 2rem;
+  }
+ .Title__h2{
+  font-size: 1.2rem;
+ }
+ .p1{
+  font-size: 1.5rem;
+ }
+ .p1__p2{
+  font-size: 1.5rem;
+ }
 }

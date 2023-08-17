@@ -1,15 +1,23 @@
+
+#bar{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+
 .navbar {
 
-width: 100%;
-box-shadow: 0 4px 6px rgba(0, 0, 255, 0.1), 0 1px 3px rgba(75, 75, 175, 0.1);
-margin: 10px;
-position: relative;
-top: 12px;
+ display: flex;
+ width: 100vw;
+ background-color:rgb(15, 15, 43) ;
+ box-shadow: 5px 5px 80px 15px rgb(26, 26, 142);
+ color: rgb(252, 253, 255);
+
 }
     
 .img {
     height:50px;
-    width: auto;
 }
   
 .navbar-collapse {
@@ -18,27 +26,35 @@ top: 12px;
 }
 
 
+
+
+
 /* botones */
-.nav-link {
+.txt {
 font-size: 20px;
 border-radius: 15px;
-color:rgb(255, 255, 255);
-
-
 }
 .nav-link:hover {
 
-    color: beige;
-    background-color: rgb(23, 23, 103);
+   
+    background-color:rgb(24, 24, 119);
 }
+
+
+.nav-link{
+    color:rgb(172, 173, 173) !important;
+    
+}
+
 
 /*adaptador responsi*/
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 760px) {
     .navbar-brand {
         display: none;
     }
     
+   
 }
 
 
@@ -46,16 +62,22 @@ color:rgb(255, 255, 255);
 
 .bi2 {
   font-size: 1rem;
-  color: rgb(16, 24, 99);
+  color: rgb(155, 155, 166);
 }
 .bi2:hover{
     color:beige;
-    background-color: rgb(23, 23, 103);
+    background-color: rgb(7, 7, 84);
 }
 
 
-.container-fluid {
-    background-color: rgb(206, 206, 206);
-    
+.nav-item{
+    margin: auto;
+    margin: 1px 25px;
 }
+
+.navbar-brand{
+    margin: auto;
+    margin: 1px 15px;
+}
+
 
