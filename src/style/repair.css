@@ -1,35 +1,40 @@
 .logo {
     height: 12rem;
-    margin-left: 130px;
+  
 }
-
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 820px) {
     .logo {
+        display: flex;
         height: 7rem;
-        justify-content: center;
-        align-items: center;
+        margin: auto;
+        margin: 0px 10px;
     }
     .detail{
+        display: flex;
         justify-content: center;
         align-items: center;
-        min-width: 300px;
-        margin-left: 80px;
-        font-size: 1rem;
+        min-width: 260px;
+        font-size: 0.8rem;
+        margin: auto;
+        margin: 0px -4.8em;
     }
+   
   }
  
 
 
-.icons{
-    margin-left: 135px ;
-}
+
 
 .detail{
     color: aliceblue;
     max-width: 400px;
-    margin-left: 100px
+  
 }
 
-.body1{
-    margin-bottom: 80px;
+
+#column{
+    display: block;
+   margin: auto;
+   margin: 10px 120px;
 }
+

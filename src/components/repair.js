@@ -3,24 +3,33 @@ import img1 from '../img/img1.png';
 import '../style/repair.css';
 import Bar from "./bar";
 import Bottom from "./bottom";
-
+import Button from '../components/button';
 const Repair = () => {
 return( 
   <div>
    <Bar/>
    <section>
-   <div className="body1">
+   <div className="body">
    <h1 id="offer"> repair</h1>
    <div className="row">
       <div className=" col-md-6">
+     
+      <div id="column">
         <img className="logo"
         src={img1}
         alt="arreglo de celulares"/>
+
+     
 
         <p className="detail">
         You can communicate with us through the following networks
         </p>
             <div className="detail">
+              
+            <a href='https://github.com/mauro-ezequiel' target='-blank'>
+                <i class="bi5 bi-github"></i>
+                </a>
+
             <a href='https://www.facebook.com/profile.php?id=100088989336658' target='-blank'>
               <i class="bi5 bi-facebook"/> 
              </a>
@@ -35,8 +44,10 @@ return(
             <i class="bi5 bi-envelope-at-fill"></i>
             </a>
             </div>
+            </div>
       </div>
       <div className="col-md-6">
+        <div id="column">
          
          <p className="detail">
           if your cell phone has any problem
@@ -62,8 +73,10 @@ return(
             in the corner
         </p>
         </div>
+        </div>
        </div>
       </div>
+      <Button/>
    
     <Bottom/>
              

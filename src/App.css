@@ -38,8 +38,8 @@ body {
  font-weight: bold;
   align-items: center;
   color: #3d3d40;
-  padding: 10px 10px;
-  font-size: 2.2rem;
+  padding-top: 60px;
+  font-size: 2rem;
   flex-wrap: wrap;
   text-shadow: 2px 2px 4px blue;
 }
@@ -47,18 +47,21 @@ body {
 .Title__h2{
   font-size: 1.6rem;
   color: #ffffff;
+  padding-top: 20px;
+  text-shadow:none;
 }
 .p1{
   font-size: 2rem;
-  color: rgb(63, 183, 39);
-  margin: 3px 50px;
+  color: rgb(50, 81, 44);
+  margin: 3px 110px;
+  text-shadow:2px 2px 4px rgb(25, 202, 72);
   
 
 }
 .p1__p2{
   padding: 2px 15px;
-  color: #9c9c9c;
-  
+  color: #4a4a4a;
+  text-shadow:2px 2px 4px rgb(195, 201, 197);
 }
 
 
@@ -67,12 +70,13 @@ body {
   font-size: 3rem;
   color: chartreuse;
   padding: 10px ;
+  text-shadow:2px 2px 4px rgb(25, 202, 72);
 }
 
 .bi1 {
   font-size: 3rem;
   color: rgb(92, 95, 89);
-  
+  text-shadow:2px 2px 4px rgb(195, 201, 197);
 
 }
 
@@ -100,8 +104,8 @@ body {
   width: 55px;
   height: 55px;
   line-height: 55px;
-  bottom: 30px;
-  right: 30px;
+  bottom: 20px;
+  right: 55px;
   background-color: #0df053;
   color: #fff;
   border-radius: 50px;
@@ -130,15 +134,26 @@ section{
 
 @media screen and (max-width: 760px) {
   .Title{
-    font-size: 2rem;
+    font-size: 1.3rem;
+    margin: auto;
+    margin: 40px 0px;
   }
  .Title__h2{
-  font-size: 1.2rem;
+  font-size: 1rem;
+  margin: auto;
+  margin: 10px 0px;
  }
  .p1{
-  font-size: 1.5rem;
+  font-size: 1.1rem;
  }
  .p1__p2{
+  font-size: 1.1rem;
+ }
+ .bi{
   font-size: 1.5rem;
  }
+ .bi1{
+  font-size: 1.5rem;
+ }
+
 }

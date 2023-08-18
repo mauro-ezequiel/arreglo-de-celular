@@ -5,6 +5,7 @@ import '../style/accessories.css';
 import air from '../img/air.webp';
 import fundas9 from '../img/fundas9.jpg';
 import Bottom from "./bottom";
+import Button from '../components/button';
 const Accessories = () => {
     return( 
 
@@ -49,7 +50,7 @@ const Accessories = () => {
             </div>
            
         </div>
-       
+       <Button/>
         <><Bottom/></>
         </section>
 

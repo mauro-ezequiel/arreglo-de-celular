@@ -4,7 +4,7 @@ import './App.css';
 import Bar from './components/bar';
 import Carousel from './components/carousel';
 import Bottom from './components/bottom';
-
+import Button from './components/button';
 
 function App() {
   return (
@@ -25,15 +25,10 @@ function App() {
    
        </div>
 
-       
+       <Button/>
          <Bottom/>
           
-          <>
-            <a href='https://wa.me/541150941389'
-             className='btn-wsp' target='-blank'>
-               <i class="bi20 bi-whatsapp"/>
-             </a>
-             </>
+        
          </section>
           </div>
 
