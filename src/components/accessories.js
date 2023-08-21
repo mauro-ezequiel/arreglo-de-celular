@@ -1,4 +1,3 @@
-import React from "react";
 import Card from "./products";
 import csc from '../img/csc.jpg';
 import '../style/accessories.css';

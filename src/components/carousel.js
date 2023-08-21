@@ -12,25 +12,29 @@ const Carousel = () => {
       <div id="carousel" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner img-fluid"  d-flex justify-content-center  align-items-center flex-wrap-wrap>
     <div class="carousel-item active" data-bs-interval="10000">
-      <a href="#Repair">
-    <img loading="lazy"
+      <a  href="home">
+    <img 
       src= {background} 
-      class="d-block w-100" />
+      class="d-block w-100" 
+      alt="repair"/>
       </a>
       
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <a href="#offer">
-      <img loading="lazy"
+      <a  href="home">
+      <img 
       src= {img2} 
-      class="d-block w-100" />
+      class="d-block w-100"
+      alt="samsung-s10" />
       </a>
     </div>
     <div loading="lazy"
     class="carousel-item">
-      <a href="#accessories">
-      <img src={air1}
-      class="d-block w-100"/>
+      <a href="home">
+     
+      <img class="d-block w-100"
+      src={air1}
+      alt='airpods'/>
       </a>
     </div>
   </div>
